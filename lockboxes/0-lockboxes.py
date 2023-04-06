@@ -2,13 +2,14 @@
 """ Python Script
 """
 
+
 def canUnlockAll(boxes):
     """ Function that determines if all the boxes can be opened
 
     Arguments:
-        boxes: A list of lists, where each list represents a box and contains integers that represent keys to other boxes. A key with the same number as a box opens that box.
+        boxes: list of lists
 
-    Returns: 
+    Returns:
         True if all boxes can be opened, or False otherwise.
     """
     unlocked_boxes = set([0])
