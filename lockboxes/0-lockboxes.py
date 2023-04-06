@@ -2,12 +2,13 @@
 
 
 def canUnlockAll(boxes):
-    """Function that determines if all the boxes can be opened
+    """ Function that determines if all the boxes can be opened
 
     Arguments:
-    boxes: A list of lists, where each list represents a box and contains integers that represent keys to other boxes. A key with the same number as a box opens that box.
+        boxes: A list of lists, where each list represents a box and contains integers that represent keys to other boxes. A key with the same number as a box opens that box.
 
-    Return: True if all boxes can be opened, or False otherwise.
+    Returns: 
+        True if all boxes can be opened, or False otherwise.
     """
     unlocked_boxes = set([0])
 
