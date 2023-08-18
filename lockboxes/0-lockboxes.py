@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+
+'''  function that return a boolean to indicate
+    if all boxes can be unlocked.
+'''
+
 
 def loopBox(box, tab, boxes):
     if len(box) != 0:
