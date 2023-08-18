@@ -20,3 +20,7 @@ def canUnlockAll(boxes):
     tab[0] = True
 
     return loopBox(boxes[0], tab, boxes)
+
+
+if __name__ == "__main__":
+    canUnlockAll()
